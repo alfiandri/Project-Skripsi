@@ -1,11 +1,9 @@
 <template>
-	<v-app>
-	<router-link to="/">Home</router-link>
-	<router-link to="/dataemas">Data Emas</router-link>
 
-	<router-view></router-view>
-</v-app>
+            
+
+    </div>
 </template>
 <script>
-	export default {};
+    export default {}
 </script>

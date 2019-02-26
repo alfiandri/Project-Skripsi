@@ -8,23 +8,12 @@
 		//Navbar
 		$('.sidenav').sidenav();
 
-		//Modal
-		$('.modal').modal();
+		// //Modal
+		// $('.modal').modal();
 
-		//Parallax
-		$('.parallax').parallax();
-		
-		//Carousel
-	    $('.carousel.carousel-slider').carousel({
-			fullWidth: true,
-			padding: 200,
-			indicators: true
-		}, setTimeout(autoplay, 4500));
+		// //Parallax
+		// $('.parallax').parallax();
 
-		function autoplay() {
-		  $('.carousel').carousel('next');
-		  setTimeout(autoplay, 4500);
-		}
 	});
 
 </script>
@@ -32,6 +21,7 @@
 {{-- <script src="{{ asset('js/scrollit.js') }}"></script> --}}
 <!-- cursor -->
 <script src="{{ asset('js/cursor.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 <!-- img load -->
 {{-- <script src="{{ asset('js/img-load.js') }}"></script> --}}
 <!-- scroll -->

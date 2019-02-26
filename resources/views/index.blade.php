@@ -1,4 +1,7 @@
+@extends('layouts.default')
 
-  <div id="app"></div>
+@section('title', '')
 
-  <script src="{{ asset('js/app.js') }}"></script>
+@section('contents')
+    <router-view></router-view>
+@endsection

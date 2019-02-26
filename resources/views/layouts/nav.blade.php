@@ -4,8 +4,8 @@
       <a href="#!" class="brand-logo">Skripsi</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li {!! Request::is('/') ? 'class="active"' : '' !!}><a href="{{ url('/') }}">Home</a></li>
-        <li {!! Route::is('dataemas.index') ? 'class="active"' : '' !!}><a href="{{ route('dataemas.index') }}">Data</a></li>
+        <li><router-link tag="li" :to="{ name: 'home' }" exact><a>Home</a></router-link></li>
+        <li><router-link tag="li" :to="{ name: 'dataemas' }" exact><a>Data</a></router-link></li>
         @auth
           <li><a href="mobile.html">Proses</a></li>
         @endauth

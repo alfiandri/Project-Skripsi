@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <!-- Head -->
 <head>
@@ -8,11 +8,14 @@
 
 <!-- Body -->
 <body>
-	@include('layouts.cursor')
-	@include('layouts.nav')
-	@yield('contents')
+	<div id="app">
+		@include('layouts.cursor')
+		@include('layouts.nav')
+		@yield('contents')
+		
+		@include('layouts.footer')
+	</div>
 	@include('layouts.js')
-	@include('layouts.footer')
 </body>
 <!-- End body -->
 </html>

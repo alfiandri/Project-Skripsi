@@ -19,7 +19,7 @@ Route::get('/{any}', 'HomeController@index')->where('any', '.*');
 
 Auth::routes();
 
-//Pages -> Cari Guide -> Show Based Provinces
+//Pages -> 
 // Route::resource('/pages/dataemas', 'DataEmasController')->except([
 // 	'show', 'create'
 // ]);
